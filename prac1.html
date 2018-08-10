@@ -11,6 +11,11 @@ h1 {
     text-align: center;
 }
 
+a {
+    color: white;
+    text-align: right;
+    font-size: 30px;
+}
 h2 {
     color: red;
     text-align: left;
@@ -21,10 +26,8 @@ p {
     text-align: left;
 }
 
-a {
-    color: white;
-    text-align: right;
-    font-size: 30px;
+.boxed {
+  border: 5px solid green ;
 }
 
 </style>
@@ -33,7 +36,9 @@ a {
 
 <h1>My GitHub Cheat Sheet </h1>
 
+
 <h2>Basic branching</h2>
+<div class="boxed">
 <p>
 When working with a centralized workflow the concepts are simple,
 master represented the official history and is always deployable.
@@ -48,10 +53,11 @@ integrated into the project. Remember, commit early and often.
 Before you create a branch, be sure you have all the upstream changes
 from the origin/master branch.
 </p>
-
+</div>
 </br>
 
 <h2>Make sure you are on master</h2>
+<div class="boxed">
 <p>
 Before I pull, I make sure I am on the right branch.
 I have GIT Bash autocompletion installed, this tells me the
@@ -59,10 +65,11 @@ branch in the prompt. Otherwise, the following command is good to know
 to list out the branches I have locally as well designate which branch
 I am currently on.
  </p>
-
+</div>
 </br>
 
 <h2>The Pull request</h2>
+<div class="boxed">
 <p>
 The pull request is where the rubber meets the road.
 As stated previously, one of the key points of the feature
@@ -85,7 +92,7 @@ Once the reviewer has approved the editors updates,
 there are two ways to merge in the code. One from the
 Github interface and another from the command line.
 </p>
-
+</div>
 
 
 
